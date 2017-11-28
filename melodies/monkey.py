@@ -5,7 +5,7 @@ import time
 import pyaudio
 from pythonosc import udp_client
 
-from starting_place.clear_osc import SineOsc
+from melodies.clear_osc import SineOsc
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--ip", default="192.168.162.21",

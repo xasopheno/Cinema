@@ -20,7 +20,7 @@ class SineOsc:
         # waveform3 = np.power(rounded_waveform, 4)/4
         # waveform4 = waveform
 
-        return rounded_waveform
+        return waveform
 
 
     def play_frequencies(self, stream, length, volume, attack, decay, *freqs):
