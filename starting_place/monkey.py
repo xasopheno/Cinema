@@ -1,10 +1,11 @@
-import random
-import time
-import pyaudio
-from clear_osc import SineOsc
-import multiprocessing as mp
 import argparse
+import multiprocessing as mp
+import time
+
+import pyaudio
 from pythonosc import udp_client
+
+from starting_place.clear_osc import SineOsc
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--ip", default="192.168.162.21",
