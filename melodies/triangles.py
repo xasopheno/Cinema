@@ -46,13 +46,13 @@ if __name__ == '__main__':
     test_freqs = generate_test_array()
 
     for frequency1, frequency2 in test_freqs:
-        check_for_relationship(frequency1, frequency2, (2/1), 3) # Octave
+        # check_for_relationship(frequency1, frequency2, (2/1), 3) # Octave
         check_for_relationship(frequency1, frequency2, (3/2), 3) # Perfect Fifth
-        check_for_relationship(frequency1, frequency2, (4/3), 4) # Perfect Fourth
-        check_for_relationship(frequency1, frequency2, (9/8), 3) # Major Second
-
+        # check_for_relationship(frequency1, frequency2, (4/3), 4) # Perfect Fourth
+        # check_for_relationship(frequency1, frequency2, (9/8), 3) # Major Second
+        #
         check_for_relationship(frequency1, frequency2, (5/4), 3) # Major Third
-        check_for_relationship(frequency1, frequency2, (6/5), 3) # Minor Third
-        check_for_relationship(frequency1, frequency2, (15/8), 3) # Major Seventh
-
-        check_for_relationship(frequency1, frequency2, (11/8), 3) # 11/8 'in-tune' tritone
+        # check_for_relationship(frequency1, frequency2, (6/5), 3) # Minor Third
+        # check_for_relationship(frequency1, frequency2, (15/8), 3) # Major Seventh
+        #
+        # check_for_relationship(frequency1, frequency2, (11/8), 3) # 11/8 'in-tune' tritone
